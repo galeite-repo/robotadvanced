@@ -1,6 +1,8 @@
 
 
 *** Settings ***
-Resource  ../resources/Resource.robot
-Test Setup  Abrir navegador
-Test Teardown   Fechar navegador
+Resource         ../resources/Resource.robot
+Test Setup       Abrir navegador
+Test Teardown    Fechar navegador
+
+
